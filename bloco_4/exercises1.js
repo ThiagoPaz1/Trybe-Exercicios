@@ -58,7 +58,7 @@ switch (peca.toLowerCase()) {
         break;
     default:
         console.log('Não se aplica.')
-        break;    
+        break;     
 }
 
 
