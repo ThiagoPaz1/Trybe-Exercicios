@@ -40,12 +40,26 @@ if(negat < posi){
 let an1 = 60
 let an2 = 60
 let an3 = 60
-//let angulo = an1 + an2 + an3
 
 if(an1 + an2 + an3 === 180){
     console.log(true)
 }else{
    console.log(false)
 }
+//6-Peça de xadrez.
+let peca = 'Cavalo'
+
+switch (peca.toLowerCase()) {
+    case 'bispo':
+        console.log('Movimento em diagonal, sem limite de casas.') 
+        break;
+    case 'cavalo':
+        console.log('Movimento semelhante a um L, três casas.')    
+        break;
+    default:
+        console.log('Não se aplica.')
+        break;    
+}
+
 
 
