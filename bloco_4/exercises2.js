@@ -11,5 +11,5 @@ for(i = 0; i < numbers.length; i++){
     somaNum += numbers[i]    
 }
 console.log(somaNum)
-
+ 
 
