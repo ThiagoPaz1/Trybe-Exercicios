@@ -37,9 +37,9 @@ for(contador = 0; contador <= numbers.length-4; contador++){
       mod += numbers[i] % 2  
 }
     if(mod === 0){
-        //console.log('Nenhum valor encontrado.')
+        console.log('Nenhum valor encontrado.')
     }else{
-       //console.log(mod)
+       console.log(mod)
     }  
    
  
