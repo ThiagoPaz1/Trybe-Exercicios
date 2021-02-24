@@ -1,5 +1,12 @@
 //1-Faça um quadrado de asteriscos:
-let n = ['*','*','*','*','*']
-for(i = 0; i < n.length; i++){
-    console.log(n[0],n[1],n[2],n[3],n[4])
+let n = 5;
+let contador = 0;
+let simbolo = '*';
+let quadrado = '';
+for(contador = 0; contador < n; contador++){
+  coluna = quadrado + simbolo;
 }
+for(contador = 0; contador < n; contador++){
+  console.log(quadrado);
+}
+
