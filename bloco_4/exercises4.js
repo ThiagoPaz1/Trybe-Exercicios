@@ -19,3 +19,10 @@ for(i in info){
 for(i in info){
     console.log(info[i])
 }
+
+//5-Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro, com valores diferentes:
+info['personagem'] = "Margarida e Tio Patinhas.";
+info['origem'] = "Pato Donald e Christmas on Bear Mountain, Dell's Four Color Comics #178.";
+info['nota'] = "Namorada do personagem principal nos quadrinhos do Pato Donald e O último MacPatinhas"; 
+
+console.log(info)
