@@ -4,6 +4,7 @@ let contador = 0;
 let simbolo = '*';
 let quadrado = '';
 let triangulo = '';
+
 for(contador = 0; contador < n; contador++){
   quadrado = quadrado + simbolo;
 }
