@@ -65,11 +65,11 @@ const contador = () => {
 
 const unindoStrings = (string) => {
   let string2 = 'Tryber x aqui!';
-  let letraBuscar = 'x';
+  let letraBuscar = 'x'
   let subString = string2.split(' ');
   
   for (let i in subString) {
-    if (subString[i] === letraBuscar) {
+    if (subString[i] === 'x') {
       subString[i] = string;
     }
   }
