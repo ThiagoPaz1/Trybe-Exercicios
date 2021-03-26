@@ -1,0 +1,13 @@
+#mostraNumeros {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border: solid blueviolet;
+  border-radius: 50px;
+}
+
+#clickCount {
+  background: whites;
+  border: 1px solid black;
+  border-radius: 10px;
+}
