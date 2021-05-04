@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.titulo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  border-radius: 20px 20px 0px 0px;
+  background-color: black;
+}
+
+.pokedex {
+  background-color: rgb(241, 233, 235);
+  border-radius: 20px;
+  display: flex;
+}
+
+.infoPokemon {
+  margin-top: 10px;
+  font-weight: bolder;
+}
+.pokemon {
+  color: antiquewhite;
+  border: 2px black solid;
+  border-radius: 0px 20px;
+  background-color: crimson;
+  width: 180px;
+  margin: auto;
+  margin: 10px;
+}
+
+.listaPokemon {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px rgb(26, 24, 24) solid;
+  border-radius: 10px;
+  width: 200px;
+}
