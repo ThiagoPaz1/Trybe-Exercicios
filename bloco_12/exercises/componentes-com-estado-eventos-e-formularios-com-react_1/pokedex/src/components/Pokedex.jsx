@@ -10,22 +10,12 @@ class Pokedex extends React.Component {
 
     this.passarPokemon = this.passarPokemon.bind(this);
     this.tipoPokemon = this.tipoPokemon.bind(this);
-    this.psychicPokemon = this.psychicPokemon.bind(this);
 
     this.state = {
       botaoPassar: 0,
       tipoPokemon: tipo,
       tp: 'Fire',
     }
-  }
-
-  psychicPokemon() {
-    const tipoPsychic = data.filter((f) => f.type === 'Psychic');
-    
-    this.setState(() => ({
-      tipoPokemon: tipoPsychic,
-      tp: 'Psychic',
-    }));
   }
 
   passarPokemon() {
@@ -48,7 +38,6 @@ class Pokedex extends React.Component {
     const tipoFogo = data.filter((f) => f.type === this.state.tp);
     const btPassar = this.state.botaoPassar;
     const btTipo = this.state.tipoPokemon;
-    console.log(this.psychicPokemon())
 
     if (btTipo === data) {
       this.setState({
@@ -71,20 +60,6 @@ class Pokedex extends React.Component {
         });
       }
     }
-
-  //   if (target.value === 'fire' && btPassar < tipoFogo.length) {
-  // //     this.setState((atualizar) => {
-  // //       tipoPokemon: tipoFogo,
-  // //       botaoPassar: atualizar.botaoPassar + 1,
-  // //     });
-  // //     console.log('Pokemon do tipo fogo');
-  // //     console.log(btTipo === tipoFogo);
-  // //     console.log(btTipo);
-  //   }
-    
-  //   this.setState((atualizar, _props) => ({
-  //     botaoPassar: atualizar.botaoPassar + 1,
-  //   }));
   }
 
   render() {
@@ -97,7 +72,6 @@ class Pokedex extends React.Component {
           <Pokemon data={ this.state.tipoPokemon[this.state.botaoPassar] } />
           <button onClick={this.passarPokemon}>Passar Pokemon</button>
           <button onClick={this.tipoPokemon} name="fire">Fogo</button>
-          <button onClick={this.psychicPokemon} >Psychic</button>
         </section>
       </div>
     );

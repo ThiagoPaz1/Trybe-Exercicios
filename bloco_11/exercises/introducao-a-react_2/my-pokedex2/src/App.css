@@ -3,6 +3,9 @@
   padding: 0px;
 }
 
+.id {
+  visibility: hidden;
+}
 .titulo {
   position: fixed;
   top: 0;
@@ -16,14 +19,21 @@
 }
 
 .pokedex {
+  margin: auto;
+  display: flex;
   background-color: rgb(241, 233, 235);
   border-radius: 20px;
-  display: flex;
+  box-shadow: 0px 10px 10px;
+  width: 100%;
 }
 
 .infoPokemon {
   margin-top: 10px;
   font-weight: bolder;
+}
+.infoPokemon p {
+  margin: 3px;
+  font-size: 1.1em;
 }
 .pokemon {
   color: antiquewhite;
@@ -35,11 +45,16 @@
   margin: 10px;
 }
 
+.pokemon:hover {
+  box-shadow: 10px 10px blueviolet;
+  transition: 1s;
+}
+
 .listaPokemon {
+  display: flex;
+  flex-flow: row wrap;
   text-align: center;
-  margin: auto;
   margin-top: 50px;
-  border: 1px rgb(26, 24, 24) solid;
+  /* border: 1px rgb(26, 24, 24) solid; */
   border-radius: 10px;
-  width: 200px;
 }
